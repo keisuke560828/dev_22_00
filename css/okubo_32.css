@@ -1,0 +1,100 @@
+/* ヘッダーロゴの配置 */
+
+
+/* ナビゲーション */
+nav{
+    font-size: 21px;
+
+    text-align: right;
+    }
+    nav ul{
+    margin: 0 ;
+    padding: 0 ;
+    }
+    nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 10%;
+    min-width: 50px;
+    }
+    nav ul li a{
+    text-decoration: none;
+    color: #333;
+    }
+    nav ul li.current a{
+    color: #F33135;
+    }
+    nav ul li a:hover{
+    color: #E7DA66;
+    }
+
+/* メイン画像 */
+.site-title {
+    position: relative;
+    }
+  
+.site-title h1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    font-size: 40px;
+    color:white;
+    font-weight: bold;
+    }
+
+.site-title h2 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    font-size: 20px;
+    color:white;
+    font-weight: lighter;
+    }
+  
+.site-title img {
+    width: 100%;
+    }
+  
+
+.English-title {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* 日本語太文字 */
+h3{
+    text-align: center;
+    font-weight: bold;
+    }
+
+/* 日本語タイトル */
+h4{
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    }
+
+p{
+font-size: 16px;
+text-align: center;
+font-weight: lighter;
+}
+
+.flex-container {
+    display: flex;
+    width: 1140px;
+}
+.flex-item {
+    flex: 4; /* これが重要！ */
+    width: 25%;
+}
